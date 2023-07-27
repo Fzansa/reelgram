@@ -1,0 +1,74 @@
+.loginwrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.loginCard {
+  width: 27vw;
+  margin-top: 6%;
+  margin-left: 2%;
+}
+
+.insta_logo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3%;
+}
+.insta_logo img {
+  width: 15vw;
+}
+
+.card2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: #000; */
+  height: 6vh;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.imgCar {
+  height: 590px;
+  width: 441px;
+  margin-top: 8vh;
+  position: relative;
+  /* background: #000; */
+}
+.car {
+  width: 221px;
+  position: absolute;
+  left: 210px;
+  top: 93px;
+}
+
+@media only screen and (max-width: 620px) {
+  .loginwrapper {
+    flex-direction: column;
+  }
+  .loginCard {
+    width: 90%;
+  }
+
+  .insta_logo img {
+    width: 70%;
+  }
+  .imgCar {
+    height: 490px;
+    width: 100%;
+    margin-top: 8vh;
+    position: relative;
+    /* background: #000; */
+  }
+
+  .car {
+    width: 186px;
+    position: absolute;
+    left: 174px;
+    top: 70px;
+    border-radius: 23px;
+    /* display: none; */
+  }
+}

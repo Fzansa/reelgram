@@ -1,0 +1,56 @@
+.container {
+  height: 88vh;
+  margin-left: 18%;
+  margin-right: 18%;
+}
+
+.upperPart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem auto;
+}
+
+.profileImage {
+  flex-basis: 40%;
+  margin-left: 10%;
+  /* background: #000; */
+}
+
+.profileImage img {
+  height: 8rem;
+  width: 8rem;
+  object-fit: cover;
+
+  border-radius: 50%;
+}
+
+.info {
+  flex-basis: 50%;
+}
+
+.profileVideo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profileVideo video{
+    height: 20rem;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.videos2 {
+    width: 280px;
+    position: relative;
+    background:white;
+  }
+  
+
+
+
+@media (max-width: 800px) {
+  .upperPart {
+    flex-direction: column;
+  }
+}
